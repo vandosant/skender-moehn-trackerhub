@@ -22,4 +22,8 @@ end
 VCR.configure do |c|
   c.cassette_library_dir = 'fixtures/vcr_cassettes'
   c.hook_into :webmock # or :fakeweb
+  c.before_record do |i|
+    request = i.request
+    request.headers['X-Trackertoken'] = "FILTERED"
+  end
 end
