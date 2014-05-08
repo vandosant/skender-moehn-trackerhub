@@ -1,0 +1,340 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/1072658/stories
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken:
+      - "<FILTERED>"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Tracker-Project-Version:
+      - '44'
+      X-Tracker-Pagination-Total:
+      - '14'
+      X-Tracker-Pagination-Offset:
+      - '0'
+      X-Tracker-Pagination-Limit:
+      - '100'
+      X-Tracker-Pagination-Returned:
+      - '14'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4a0add5e1d15f74072d418b576e900a7
+      X-Runtime:
+      - '0.135755'
+      Date:
+      - Thu, 08 May 2014 19:49:44 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "kind": "story",
+            "id": 70631242,
+            "created_at": "2014-05-03T21:14:56Z",
+            "updated_at": "2014-05-03T21:13:48Z",
+            "story_type": "bug",
+            "name": "User registration and authentication",
+            "description": "Users should have unique and valid emails.",
+            "current_state": "delivered",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631242",
+            "owner_ids": [
+              1256940
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256940
+          },
+          {
+            "kind": "story",
+            "id": 70631358,
+            "created_at": "2014-05-03T21:35:26Z",
+            "updated_at": "2014-05-05T00:00:29Z",
+            "story_type": "bug",
+            "name": "Blowup on multiple word translations",
+            "current_state": "delivered",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631358",
+            "owner_ids": [
+              1256940
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256940
+          },
+          {
+            "kind": "story",
+            "id": 70647846,
+            "created_at": "2014-05-04T23:52:50Z",
+            "updated_at": "2014-05-05T15:10:02Z",
+            "story_type": "bug",
+            "name": "Login issues",
+            "current_state": "delivered",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70647846",
+            "owner_ids": [
+              1256940
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256940
+          },
+          {
+            "kind": "story",
+            "id": 70678772,
+            "created_at": "2014-05-05T14:47:55Z",
+            "updated_at": "2014-05-05T14:47:55Z",
+            "estimate": 0,
+            "story_type": "feature",
+            "name": "Add elevator pitch to registration page",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70678772",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70648098,
+            "created_at": "2014-05-05T00:19:39Z",
+            "updated_at": "2014-05-05T00:19:39Z",
+            "story_type": "chore",
+            "name": "Setup Travis CI",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70648098",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70631274,
+            "created_at": "2014-05-03T21:20:56Z",
+            "updated_at": "2014-05-03T21:22:40Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Add styling to forms",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631274",
+            "owner_ids": [
+              1256940
+            ],
+            "labels": [
+
+            ],
+            "owned_by_id": 1256940
+          },
+          {
+            "kind": "story",
+            "id": 70631282,
+            "created_at": "2014-05-03T21:21:43Z",
+            "updated_at": "2014-05-03T21:21:43Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Show examples of sentences in translations",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631282",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70631288,
+            "created_at": "2014-05-03T21:23:47Z",
+            "updated_at": "2014-05-03T21:26:39Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Allow logged in users to save phrases in a personal dictionary",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631288",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70631292,
+            "created_at": "2014-05-03T21:24:27Z",
+            "updated_at": "2014-05-03T21:23:16Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Create a mascot that shows in header",
+            "description": "Portuguese Waterdog?",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631292",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70631310,
+            "created_at": "2014-05-03T21:26:01Z",
+            "updated_at": "2014-05-03T21:26:03Z",
+            "estimate": 1,
+            "story_type": "feature",
+            "name": "Add some basic vocabulary for all users to see",
+            "description": "Group the words into reasonable categories of roughly 10 words",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631310",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70631320,
+            "created_at": "2014-05-03T21:27:44Z",
+            "updated_at": "2014-05-03T21:28:55Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Store all user search results in a words table",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631320",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70631328,
+            "created_at": "2014-05-03T21:28:30Z",
+            "updated_at": "2014-05-03T21:30:36Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "Allow for translation of phrases",
+            "description": "Create an algorithm that identifies one, two, and three word phrases and tries to translate long sentences",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631328",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70631342,
+            "created_at": "2014-05-03T21:31:35Z",
+            "updated_at": "2014-05-03T21:31:36Z",
+            "estimate": 3,
+            "story_type": "feature",
+            "name": "Allow for translation of documents (uploaded by users)",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631342",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          },
+          {
+            "kind": "story",
+            "id": 70631340,
+            "created_at": "2014-05-03T21:31:15Z",
+            "updated_at": "2014-05-03T21:31:18Z",
+            "estimate": 2,
+            "story_type": "feature",
+            "name": "Allow for translation of documents (copied into the browser)",
+            "current_state": "unstarted",
+            "requested_by_id": 1256940,
+            "project_id": 1072658,
+            "url": "https://www.pivotaltracker.com/story/show/70631340",
+            "owner_ids": [
+
+            ],
+            "labels": [
+
+            ]
+          }
+        ]
+    http_version: 
+  recorded_at: Thu, 08 May 2014 19:49:44 GMT
+recorded_with: VCR 2.9.0

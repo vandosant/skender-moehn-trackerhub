@@ -5,6 +5,10 @@ class TrackerApi
     get('/projects')
   end
 
+  def all_stories(id)
+    get("/projects/#{id}/stories")
+  end
+
   private
 
   def get(path)
