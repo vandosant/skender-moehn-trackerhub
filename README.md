@@ -11,8 +11,7 @@ Class project to learn how to do API calls on Pivotal Tracker and Github.
 ## Important Links
 
 * [Tracker](https://www.pivotaltracker.com/n/projects/1075540)
-* [Staging](whispering-caverns-5184.herokuapp.com)
-* [Production](http://skender-moehn-trackerhub.herokuapp.com/)
+* [Staging](http://whispering-caverns-5184.herokuapp.com/)
 
 ## Setup
 
